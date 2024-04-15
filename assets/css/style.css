@@ -13,6 +13,26 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -29,7 +49,15 @@
     background-color: #525252;
 }
 
-.row-table {
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+    .row-table {
     display: table;
 }
 
@@ -152,6 +180,7 @@ header {
 .menuitem {
     height: 120px;
     text-align: center;
+    vertical-align: middle;
     padding: 0;
 }
 
@@ -160,6 +189,7 @@ header {
     text-decoration: none;
     color: #ffffff;
     height: 120px;
+    vertical-align: middle;
 }
 
 .menuitem a i {
@@ -347,6 +377,14 @@ background-color: rgba(25, 25, 25, 0.2);
     background-color: #fafafa;
 }
 
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
 
 /* -----------------------------------------------Contact Form */
 
@@ -370,6 +408,11 @@ color: #fafafa;
 background-color: #e84610;
 }
 
+/* -----------------------------------------------Map */
+div#map {
+    min-height: 360px;
+}
+
 /* -----------------------------------------------Media Query */
 
 @media(min-width: 992px) {
@@ -381,3 +424,4 @@ background-color: #e84610;
     }
 
 }
+
